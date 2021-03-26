@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300" height="150" version="1.1" viewBox="0 0 79.375 39.688" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="linearGradient3323">
+   <stop stop-color="#de0303" offset="0"/>
+   <stop stop-color="#dec203" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient4119" x1="44.224" x2="165.72" y1="133.07" y2="108.33" gradientTransform="translate(-1.8673 -.70051)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient3323"/>
+ </defs>
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="matrix(1.2823 0 0 1.2823 -.77564 -9.2634)">
+  <g transform="matrix(.48195 -.049752 .049752 .48195 -25.374 -42.288)" fill="url(#linearGradient4119)" stroke-width=".99988" style="paint-order:markers fill stroke">
+   <path d="m42.357 132.37c-0.30824-0.45195 4.339-5.4586 14.489-10.256h3e-6c4.5336-2.1435 10.795-3.8598 17.581-2.7394 7.126 1.2471 13.074 4.4082 20.119 7.8743 2.4857 1.2033 5.0795 2.4602 7.6602 3.6068 4.7177 2.096 9.2087 3.7403 13.794 4.6105 8.0469 1.5844 16.333 0.60608 22.894-0.61383 14.981-2.8086 24.533-6.2788 24.747-5.6442 0.21453 0.6346-8.7765 5.1947-24.061 8.8552-6.7227 1.6199-15.389 2.9006-24.31 1.3424-5.0198-0.90895-9.8494-2.6126-14.738-4.7733-2.6847-1.1866-5.3043-2.4739-7.7911-3.7193-7.2092-3.5534-12.582-6.6754-18.983-7.9444-5.7392-1.2081-11.486 0.0754-15.794 1.7415h-3e-6c-9.8211 3.8068-15.3 8.1114-15.608 7.6595z" style="paint-order:stroke markers fill"/>
+   <path d="m45.763 125.56c0.03974-0.0579 5.5288-5.6758 12.938-9.2681h2e-6c4.2716-2.066 9.991-3.5429 16.25-2.465 6.8564 1.2259 12.599 4.2277 19.54 7.5363 3.9084 1.8424 8.0522 3.7906 12.221 5.3634 3.1489 1.188 6.2179 2.1282 9.2974 2.75 4.3195 0.89705 8.9104 0.72611 12.99 0.43668 5.3298-0.38959 10.466-1.207 14.66-1.9586 12.363-2.218 19.432-4.2165 18.265-3.359-0.97016 0.713-7.5256 3.1827-17.815 5.5541-4.2489 0.98016-9.3935 1.9897-14.87 2.5349-4.1974 0.42703-9.0129 0.67453-13.818-0.23255-6.1856-1.1986-12.048-3.5149-18.091-6.3201-1.4142-0.65643-2.8115-1.3267-4.1698-1.9846-7.151-3.426-12.392-6.3712-18.717-7.6346-5.5246-1.1477-10.897 0.0374-14.885 1.688l-2e-6 1e-5c-4.3047 1.7788-8.9379 4.8049-10.731 5.909-2.318 1.4273-3.458 2.0229-3.0648 1.4502z" style="paint-order:markers fill stroke"/>
+  </g>
+  <text transform="scale(.97898 1.0215)" x="0.92172253" y="29.837105" fill="#de1103" fill-opacity=".94902" font-family="Raleway" font-size="9.5687px" font-weight="bold" letter-spacing="3.175px" stroke-width=".59805" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="0.92172253" y="29.837105" fill="#de1103" fill-opacity=".94902" font-family="Roboto" font-size="12.844px" font-weight="bold" stroke-width=".59805" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal">red sky</tspan></text>
+  <text x="1.5110019" y="36.521069" font-family="sans-serif" font-size="3.4949px" font-weight="bold" letter-spacing="1.446px" stroke-width=".21843" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="1.5110019" y="36.521069" font-family="Lora" font-size="3.8809px" font-weight="bold" stroke-width=".21843" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal">WEB DEVELOPMENT</tspan></text>
+ </g>
+</svg>
