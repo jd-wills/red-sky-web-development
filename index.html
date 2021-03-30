@@ -1,7 +1,7 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Red Sky Web Development</title>
     <link rel="icon" href="./resources/img/favicon.svg" type="image/svg">
@@ -9,78 +9,224 @@
     <link rel="stylesheet" href="./resources/css/style.css">
     <link rel="stylesheet" href="./resources/css/fixed.css">
   </head>
-
   <body>
-    
     <!-- Navbar -->
     <nav class="navbar navbar-expand-md navbar-dark fixed-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html"><img src="./resources/img/Final Concep tInverse.svg"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+      <div class="container-fluid"> <a class="navbar-brand" href="index.html"><img
 
+            src="./resources/img/Final%20Concep%20tInverse.svg"></a> <button class="navbar-toggler"
+
+          type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive">
+          <span class="navbar-toggler-icon"></span> </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
             <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+            <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
           </ul>
         </div>
       </div>
     </nav>
-
-    
-
     <!-- Landing Image -->
     <!-- <div class="landing-image" style="background-image: url(./resources/img/background-3104413_1920.jpg);">
-      <div class="carousel-caption text-center">
-        <h1>RED SKY WEB DEVELOPMENT</h1>
-      </div>
-    </div> -->
+      <div class="carousel-caption text-center">        <h1>RED SKY WEB DEVELOPMENT</h1>
+      </div>    </div> -->
+    <!-- Video landing -->
     <div class="video-background">
       <div class="video-wrap">
-        <div id="video">
-          <video id="bgvid" autoplay loop muted playsinline>
-            <source src="./resources/video/Sun - 6348(1).mp4" type="video/mp4">
-          </video>
-        </div>
+        <div id="video"> <video id="bgvid" autoplay="autoplay" loop="" muted="muted"
+
+            playsinline=""> <source src="./resources/video/Sun%20-%206348%281%29.mp4"
+
+              type="video/mp4"> </video> </div>
       </div>
     </div>
-  
     <div class="caption text-center">
       <h1>WELCOME</h1>
       <h2>RED SKY WEB DEVELOPMENT</h2>
-      <a class="btn btn-outline-light btn-lg" href="#about" role="button" type="button">GET STARTED</a>
-    </div>
-
+      <a class="btn btn-outline-light btn-lg" href="#about" role="button" type="button">GET
+        STARTED</a> </div>
+    <!-- Jumbotron -->
     <div class="jumbotron jumbotron-fluid text-left" id="about">
       <div class="container container-fluid text-left">
         <h1 class="display-4">Hi there!</h1>
-        <p class="lead">Welcome to Red Sky Web Development.
-            Hi there I'm a freelance web developer based in Darwin, Australia.
-        </p>
+        <p class="lead">Welcome to Red Sky Web Development. Hi there I'm a
+          freelance web developer based in Darwin, Australia. </p>
         <hr class="my-4">
         <p>If you think you needs help get in touch below!</p>
-        <p class="lead">
-          <a class="btn btn-primary btn-lg" href="#" role="button">Get in touch</a>
-        </p>
+        <p class="lead"> <a class="btn btn-primary btn-lg" href="#contact" role="button">Get
+            in touch</a> </p>
+      </div>
+    </div>
+    <!-- Jumbotron end -->
+    <!-- Services -->
+    <div id="services" class="text-center">
+      <h2>&lt;Services/&gt;</h2>
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-4 text-center">
+          <h3>Web Development<br>
+            &amp; Design</h3>
+          <div> <i class="fas fa-code fa-3x"></i> </div>
+          <p>As a web developer I use languages such as HTML5, CSS3 & JavaScript to produce responsive original websites.  If you would like to use a CMS such as Wordpress or other designs I can help with that also.</p>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4 text-center">
+          <h3>Site Maintenance<br>
+            &amp; SEO</h3>
+          <div> <i class="fas fa-search fa-3x"></i> </div>
+          <p>Search Engine Optimisation (SEO) is essential for all businesses that use a website.  Using good SEO techniques ensures your business can be found thus improving your success. If your website has issues and needs fixing, get in touch!</p>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-4 text-center">
+          <h3>Data Visualisation<br>
+            &amp; Analytics</h3>
+          <div> <i class="fas fa-chart-line fa-3x"></i> </div>
+          <p>Analysing your website helps you understand the performance of your product and marketing effectiveness.  This will help you make the best decisions possible.  Data visualisation is also a great way for you to understand any data your business collects.</p>
+        </div>
+      </div>
+    </div>
+    <!-- Services end -->
+
+    <!-- Parallax scroll -->
+    <div class="fixed-background">
+      <div class="parallax">
+        <blockquote>"Lets work together!"</blockquote>
       </div>
     </div>
 
-    <div id="services">
-      <div class="col-12 container-fluid">
-        <h3>&lt&sol;Our Services&gt</h3>
-
+    <!-- Portfolio -->
+    <div id="portfolio" class="text-center">
+      <h2>&lt;Portfolio/&gt;</h2>
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-sm-4 text-center">
+                <img src="">
+                <h3>Biz 1</h3>
+                <p>Lorem ipsum.</p>
+              </div>
+              <div class="col-sm-4 text-center">
+                <img src="">
+                <h3>Biz 1</h3>
+                <p>Lorem ipsum.</p>
+              </div>
+              <div class="col-sm-4 text-center">
+                <img src="">
+                <h3>Biz 1</h3>
+                <p>Lorem ipsum.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-sm-4 text-center">
+                <img src="">
+                <h3>Biz 1</h3>
+                <p>Lorem ipsum.</p>
+              </div>
+              <div class="col-sm-4 text-center">
+                <img src="">
+                <h3>Biz 1</h3>
+                <p>Lorem ipsum.</p>
+              </div>
+              <div class="col-sm-4 text-center">
+                <img src="">
+                <h3>Biz 1</h3>
+                <p>Lorem ipsum.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-sm-4 text-center">
+                <img src="">
+                <h3>Biz 1</h3>
+                <p>Lorem ipsum.</p>
+              </div>
+              <div class="col-sm-4 text-center">
+                <img src="">
+                <h3>Biz 1</h3>
+                <p>Lorem ipsum.</p>
+              </div>
+              <div class="col-sm-4 text-center">
+                <img src="">
+                <h3>Biz 1</h3>
+                <p>Lorem ipsum.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </div>
+    <svg preserveAspectRatio="none" viewBox="0 0 100 102" height="4rem" width="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" class="svgcolor-light">
+      <path d="M0 0 L50 100 L100 0 Z" fill="#36454f" stroke="#36454f"></path>
+    </svg>
+    <!-- Portfolio End -->
 
-    
+    <!-- Contact -->
+    <div id="contact" >
+      <h2 class="text-center">&lt;Contact/&gt;</h2>
+      <p class="lead text-center">Please drop me a line below to get in touch!</p>
+      <div class="container">
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputName1" class="form-label">Full name</label>
+            <input type="text" class="form-control" id="exampleInputName1">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="Message">Message:</label>
+            <textarea class="form-control" rows="5" id="comment"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Get in touch!</button>
+        </form>
+      </div>
 
-      <!-- Script source files -->
-      <script src="./resources/js/jquery-3.6.0.min.js"></script>
-      <script src="./resources/bootstrap-5.0.0-beta3-dist/js/bootstrap.min.js"></script>
-      <script defer src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" integrity="sha384-haqrlim99xjfMxRP6EWtafs0sB1WKcMdynwZleuUSwJR0mDeRYbhtY+KPMr+JL6f" crossorigin="anonymous"></script>
+      <footer>
+        <div class="row justify-content-center">
+					<div class="col-md-5 text-center">
+						<img src="./resources/img/Final Concept1.svg">
+						
+            <div>
+              <a href="mailto: jd_wills@live.com" target="_blank"><i class="fas fa-envelope"></i></a>
+              <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+              <a href="https://github.com/" target="_blank"><i class="fab fa-github-square"></i></a>
+              <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+						
+						
+					</div>
+
+					<hr class="socket">
+					<h6 class="text-center">Red Sky Web Development <script type="text/javascript">var year = new Date();document.write(year.getFullYear());</script></h6>
+				</div>
+      </footer>
+    </div>
+
+    <!-- Script source files -->
+    <script src="./resources/js/jquery-3.6.0.min.js"></script>
+    <script src="./resources/bootstrap-5.0.0-beta3-dist/js/bootstrap.min.js"></script>
+    <script defer="defer" src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"
+
+integrity="sha384-haqrlim99xjfMxRP6EWtafs0sB1WKcMdynwZleuUSwJR0mDeRYbhtY+KPMr+JL6f"
+
+crossorigin="anonymous"></script>
   </body>
 </html>
