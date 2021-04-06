@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@1,400;1,700&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+    
+    background-color: white;
+}
+
+.offset:before {
+  display: block;
+  content: "";
+  height: 4.5rem;
+  margin-top: -4.5rem;
+}
+
+.narrow {
+  width: 75%;
+  margin: 0 auto;
+}
+
+ .navbar-brand img {
+     height: 3rem;
+     margin: 0 1rem;
+ }
+
+ .navbar {
+    background-color: #C40D00;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .8rem;
+    letter-spacing: .1rem;
+ }
+
+ /* transition: background .8s ease-out;
+ transition-property: background;
+ transition-duration: 0.6s;
+ transition-timing-function: ease-out;
+ transition-delay: 0s; */
+
+ /* .navbar:hover {
+     background-color: #cc0a00;
+ } */
+
+ .navbar-nav li {
+    padding-right: .7rem;
+  
+  }
+  
+  .navbar .navbar-nav .nav-link {
+    color: white;
+    padding: .8rem;
+    text-transform: uppercase;
+    border-radius: 0;
+  }
+
+  .navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:hover {
+  color: #C40D00;
+  background-color: white;
+
+}
+
+.landing-image {
+  background: url(../img/sea.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    color: white;
+    background-color: rgba(0,0,0,.8);
+}
+
+.landing-image h1{
+  font-size: 3.8rem;
+  top: 38%;
+  position: relative;
+  text-shadow: .1rem .1rem .8rem black;
+}
+
+.landing-image h2{
+  font-size: 3rem;
+  top: 38%;
+  position: relative;
+  text-shadow: .1rem .1rem .8rem black;
+}
+
+.video-background {
+    position: relative;
+    max-width: 100%;
+    min-height: 100vh;
+    background-color: rgba(0,0,0,.4);
+  }
+  
+  .caption {
+    position: absolute;
+    top:38%;
+    width: 100%;
+    color: white;
+  }
+  
+  .caption h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: .2rem;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom: 1rem;
+  }
+  
+  .caption h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    text-shadow: .1rem .1rem .5rem black;
+    padding-bottom: 1.6rem;
+  }
+  
+  .btn-lg {
+    border-width: medium;
+    border-radius: 0;
+    font-size: 1.1rem;
+    padding: .6rem 1.3rem;
+    background-color: white;
+    color: black;
+  }
+
+  .btn-lg:hover {
+    background-color: #C40D00;
+    color: white;
+    border-color: #C40D00;
+  }
+  
+.jumbotron {
+    width: 75%;
+    margin: 6rem auto;
+    padding-bottom: 3rem;
+}
+
+.jumbotron .btn {
+    border-color: #C40D00;
+    color: #C40D00;
+    font-weight: 700;
+}
+
+.jumbotron .btn:hover {
+    border-color: #C40D00;
+    color: white;
+    background-color: #C40D00;    
+}
+
+/* Services Section */
+
+#services {
+    width: 100%;
+    background-color:#F4F2FA;
+    color: black;
+}
+
+h2.heading {
+  font-size: 1.9rem;
+  font-weight: 700;
+}
+
+.heading-underline {
+  width: 4rem;
+  height: .2rem;
+  background-color: #C40D00;
+  margin: 0 auto 3.5rem;
+}
+
+.feature {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #F4F2FA;
+  padding: 2rem 2.5rem 4rem;
+  
+  height: 100%
+}
+
+.feature h3 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  padding-bottom: .4rem;
+}
+
+.feature p {
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.feature svg {
+  margin: 1rem 0;
+  color: #C40D00;
+}
+
+
+.parallax {
+    background: url(../img/home-office-336377.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    color: white;
+    background-color: rgba(0,0,0,.8);
+}
+
+.parallax blockquote {
+  font-size: 3rem;
+  top: 38%;
+  position: relative;
+  text-shadow: .1rem .1rem .8rem black;
+  font-family: 'Noto Serif', serif;
+}
+
+/* Portfolio Section */
+
+#portfolio {
+  background-color: #C40D00;
+  color: white;
+  padding-bottom: 2rem;
+}
+
+#portfolio .heading-underline {
+  background-color: white;
+}
+ 
+.carousel-item img {
+  max-width: 100%;
+  
+}
+
+.portfolio-item {
+  max-width: 25%;
+  max-height: 300px;
+  margin: 0 auto 2rem;  
+}
+
+.carousel-indicators {
+  top: 100%;
+}
+
+/* Contact Section */
+
+#contact {
+  margin: 3.8rem auto;
+  background-color: white;
+  
+}
+
+#contact .heading-underline {
+  background-color: #C40D00;
+}
+
+form {
+  width: 50%;
+  margin: 0 auto;
+  text-align: left;
+  padding-bottom: 3rem;
+}
+
+form .btn {
+  margin-top: 1rem;
+  background-color: #C40D00;
+  border-radius: 0;
+  border: 3px solid #C40D00;
+  padding: .6rem 1.3rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+form .btn:hover {
+  background-color: white;
+  color: #C40D00;
+  border: 3px solid #C40D00;
+  padding: .6rem 1.3rem;
+  
+}
+
+/* Footer Section */
+
+footer {
+  background-color: #474747;
+  color: white;
+  margin-bottom: -4rem;
+  padding: 3rem 1rem 0;
+}
+
+footer img {
+  height: 5rem;
+  margin-bottom: 2rem;
+}
+
+footer svg.svg-inline--fa {
+  font-size: 2.8rem;
+  margin: 1rem 1.5rem 2rem;
+  color: white;
+}
+
+footer svg.svg-inline--fa:hover {
+  color: #C40D00;
+}
+
+footer h6 {
+  padding: 1.1rem 0;
+  margin-bottom: 1rem;
+}
+
+
+
+
+
+
+
+ /* .landing-image {
+     height: 100vh;
+ }
+ 
+ .carousel-caption {
+    position: absolute;
+    top: 38%;
+    text-transform: uppercase;
+    width: 100%;
+    right: 0;
+    left: 0;
+  }
+  
+  .carousel-caption h1 {
+    font-size: 3.8rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom: 1rem;
+  } */
+  
+ 
+ 
+ 
+ /*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
