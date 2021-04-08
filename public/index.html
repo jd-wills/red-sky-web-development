@@ -4,21 +4,23 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Red Sky Web Development</title>
-    <link rel="icon" href="./resources/img/favicon.svg" type="image/svg">
+    <meta name="description" content="Red Sky Web Development is a fullstack web development and design company based in Australia.  We build, fix and improve websites for businesses.  We also speacialsie in SEO, analytics and data visualisation.">
+    <link rel="icon" href="./resources/img/favicon.png" type="image/png">
     <link rel="stylesheet" href="./resources/bootstrap-5.0.0-beta3-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./resources/css/style.css">
     <link rel="stylesheet" href="./resources/css/fixed.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
-  <body>
+  <body data-bs-spy="scroll" data-bs-target="#navbarResponsive">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
-      <div class="container-fluid"> <a class="navbar-brand" href="index.html"><img
-
-            src="./resources/img/Final%20Concep%20tInverse.svg"></a> <button class="navbar-toggler"
-
-          type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive">
-          <span class="navbar-toggler-icon"></span> </button>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container-fluid"> 
+        <a class="navbar-brand" href="index.html"><img src="./resources/img/new logo inverse.svg"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span> 
+        </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
+          
           <ul class="navbar-nav ms-auto">
             <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
             <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
@@ -34,8 +36,12 @@
     
       <div class="fixed-background">
         <div class="landing-image text-center">
-          <h1>Welcome to</h1>
-          <h2>RED SKY WEB DEVELOPMENT</h2>
+          <div class="landing-heading" data-aos="fade-in" data-aos-easing="linear" data-aos-duration="2000" data-aos-delay="200"> 
+            <h1>Welcome to</h1>
+            <h2>RED SKY WEB DEVELOPMENT</h2>
+            <a class="btn btn-outline-light btn-lg" href="#about" role="button" type="button">GET
+              STARTED</a>
+          </div>
         </div>
       </div>
          
@@ -64,12 +70,11 @@
       <div class="jumbotron jumbotron-fluid text-left">
         <div class="container container-fluid text-left">
           <h1 class="display-4">Hi there!</h1>
-          <p class="lead">Welcome to Red Sky Web Development. Hi there I'm a
-            freelance web developer based in Darwin, Australia. </p>
+          <p class="lead">Welcome to Red Sky Web Development. I'm a
+            freelance fullstack web developer based in Darwin, Australia.  I use various web languages to build original responsive websites for businesses who require an online presence. </p>
           <hr class="my-4">
-          <p>If you think you needs help get in touch below!</p>
-          <p class="lead"> <a class="btn btn-primary btn-lg" href="#contact" role="button">Get
-              in touch</a> </p>
+          <p>If you think you need my help or would like to work together, get in touch below!</p>
+          <p class="lead"> <a class="btn btn-primary btn-lg" href="#contact" role="button">Contact me</a> </p>
         </div>
       </div>
     </div>
@@ -78,32 +83,32 @@
     <div id="services" class="text-center offset">
       <div class="narrow">
         <div class="col-12">
-          <h2 class="heading">SERVICES</h2>
+          <h3 class="heading">SERVICES</h3>
           <div class="heading-underline"></div>
 
           <div class="row text-center">
             <div class="col-lg-4">
-              <div class="feature">
-                <h3>Web Development<br>
-                  &amp; Design</h3>
-                <div> <i class="fas fa-code fa-3x"></i> </div>
-                <p>As a web developer I use languages such as HTML5, CSS3 & JavaScript to produce responsive original websites.  If you would like to use a CMS such as Wordpress or other designs I can help with that also.</p>
+              <div class="feature" data-aos="fade-up" data-aos-delay="0" >
+                <h4 data-aos="fade-up" data-aos-delay="100">Web Development<br>
+                  &amp; Design</h4>
+                <div data-aos="fade-up" data-aos-delay="200"> <i class="fas fa-code fa-3x"></i> </div>
+                <p data-aos="fade-up" data-aos-delay="300">As a fullstack web developer I use languages such as HTML5, CSS3, JavaScript, Node & Express.js to produce responsive original websites.  If you would like to use a CMS such as Wordpress, Wix, Squarespace etc. or other designs I can help!</p>
               </div>
             </div>
             <div class="col-lg-4">
-              <div class="feature">
-                <h3>Site Maintenance<br>
-                  &amp; SEO</h3>
+              <div class="feature" data-aos="fade-up" data-aos-delay="100">
+                <h4>Site Maintenance<br>
+                  &amp; SEO</h4>
                 <div> <i class="fas fa-search fa-3x"></i> </div>
-                <p>Search Engine Optimisation (SEO) is essential for all businesses that use a website.  Using good SEO techniques ensures your business can be found thus improving your success. If your website has issues and needs fixing, get in touch!</p>
+                <p>Search Engine Optimisation (SEO) is essential for all businesses that use the web.  Using good SEO techniques ensures your business can be found thus improving your success. If your website has maintenance issues or needs fixing, I can help!</p>
               </div>
             </div>
             <div class="col-lg-4">
-              <div class="feature">
-                <h3>Data Visualisation<br>
-                  &amp; Analytics</h3>
+              <div class="feature" data-aos="fade-up" data-aos-delay="200">
+                <h4>Data Visualisation<br>
+                  &amp; Analytics</h4>
                 <div> <i class="fas fa-chart-line fa-3x"></i> </div>
-                <p>Analysing your website helps you understand your product and marketing effectiveness.  This will help you make the best decisions possible.  Data visualisation is also a great way for you to understand any data your business collects.</p>
+                <p>Analysing your website helps you understand your product and marketing effectiveness.  This will help you make the best business decisions possible.  Data visualisation is also a great way for you to understand any data your business collects.</p>
             </div>
           </div>
         </div>
@@ -115,15 +120,18 @@
     <!-- Parallax scroll -->
     <div class="fixed-background">
       <div class="parallax">
-        <blockquote><em>"Lets work together!"</em></blockquote>
+        <div class="parallax-caption" data-aos="fade-left">
+          <blockquote><em>"Websites promote you 24/7: No employee will do that."</em></blockquote>
+          <span>- Paul Cookson</span>
+        </div>
       </div>
     </div>
 
     <!-- Portfolio -->
     <div id="portfolio" class="text-center offset">
-      <h2 class="heading">PORTFOLIO</h2>
+      <h3 class="heading">PORTFOLIO</h3>
       <div class="heading-underline"></div>
-      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-keyboard="true">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -131,17 +139,17 @@
         <div class="carousel-inner narrow">
           <div class="carousel-item active">
             <div class="row">
-              <div class="col-sm-4 portfolio-item">
+              <div class="portfolio-item" data-aos="fade-up" data-aos-delay="100">
                 <a href="" target="_blank"><img src="./resources/img/screenshot-jd-wills-github-io-fotomatic-1617166992479 (1).png"></a>
                 <h3>Fotomatic</h3>
                 <p>Single page website for photography business</p>
               </div>
-              <div class="col-sm-4 portfolio-item">
+              <div class="portfolio-item" data-aos="fade-up" data-aos-delay="200">
                 <a href="" target="_blank"><img src="./resources/img/screenshot-jd-wills-github-io-fotomatic-1617166992479 (1).png"></a>
                 <h3>Fotomatic</h3>
                 <p>Single page website for photography business</p>
               </div>
-              <div class="col-sm-4 portfolio-item">
+              <div class="portfolio-item" data-aos="fade-up" data-aos-delay="300">
                 <a href="" target="_blank"><img src="./resources/img/screenshot-jd-wills-github-io-fotomatic-1617166992479 (1).png"></a>
                 <h3>Fotomatic</h3>
                 <p>Single page website for photography business</p>
@@ -150,17 +158,17 @@
           </div>
           <div class="carousel-item">
             <div class="row">
-              <div class="col-sm-4 portfolio-item">
+              <div class="col-sm-4 portfolio-item" data-aos="fade-up" data-aos-delay="100">
                 <a href="" target="_blank"><img src="./resources/img/screenshot-jd-wills-github-io-fotomatic-1617166992479 (1).png"></a>
                 <h3>Fotomatic</h3>
                 <p>Single page website for photography business</p>
               </div>
-              <div class="col-sm-4 portfolio-item">
+              <div class="col-sm-4 portfolio-item" data-aos="fade-up" data-aos-delay="200">
                 <a href="" target="_blank"><img src="./resources/img/screenshot-jd-wills-github-io-fotomatic-1617166992479 (1).png"></a>
                 <h3>Fotomatic</h3>
                 <p>Single page website for photography business</p>
               </div>
-              <div class="col-sm-4 portfolio-item">
+              <div class="col-sm-4 portfolio-item" data-aos="fade-up" data-aos-delay="300">
                 <a href="" target="_blank"><img src="./resources/img/screenshot-jd-wills-github-io-fotomatic-1617166992479 (1).png"></a>
                 <h3>Fotomatic</h3>
                 <p>Single page website for photography business</p>
@@ -178,6 +186,40 @@
         </button>
       </div>
     </div>
+
+<!-- Portfolio Mobile -->
+<div id="mobile-portfolio" class="text-center offset">
+  <h3 class="heading">PORTFOLIO</h3>
+  <div class="heading-underline"></div>
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+          <div class="portfolio-item">
+            <a href="" target="_blank"><img src="./resources/img/screenshot-jd-wills-github-io-fotomatic-1617166992479 (1).png"></a>
+            <h3>Fotomatic</h3>
+            <p>Single page website for photography business</p>
+          </div>
+      </div>
+      <div class="carousel-item">
+        <div class="portfolio-item">
+            <a href="" target="_blank"><img src="./resources/img/screenshot-jd-wills-github-io-fotomatic-1617166992479 (1).png"></a>
+            <h3>Hello</h3>
+            <p>Single page website for photography business</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="portfolio-item">
+            <a href="" target="_blank"><img src="./resources/img/screenshot-jd-wills-github-io-fotomatic-1617166992479 (1).png"></a>
+            <h3>Goodbye</h3>
+            <p>Single page website for photography business</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
     <svg preserveAspectRatio="none" viewBox="0 0 100 102" height="4rem" width="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" class="svgcolor-light">
       <path d="M0 0 L50 100 L100 0 Z" fill="#C40D00"></path>
       <path d="M0 0 L50 100 L0 100 Z" fill="white"></path>
@@ -186,12 +228,12 @@
     <!-- Portfolio End -->
 
     <!-- Contact -->
-    <div id="contact" class="offset" >
-      <h2 class="heading">CONTACT</h2>
+    <div id="contact" class="offset">
+      <h3 class="heading">CONTACT</h3>
       <div class="heading-underline"></div>
       <p class="lead">Please drop me a line below to get in touch!</p>
       <div class="container">
-        <form class="contact-form">
+        <form class="contact-form" data-aos="flip-left" data-aos-delay="100" data-aos-duration="1000">
           <div class="mb-3">
             <label for="exampleInputName1" class="form-label">Full name</label>
             <input type="text" class="form-control" id="fullName" placeholder="Type your name here...">
@@ -218,7 +260,7 @@
       <footer>
         <div class="row justify-content-center">
 					<div class="col-md-5 text-center">
-						<img src="./resources/img/Final Concep tInverse.svg">
+						<img src="./resources/img/new logo inverse footer.svg">
 						
             <div>
               <a href="mailto: jd_wills@live.com" target="_blank"><i class="fas fa-envelope icon"></i></a>
@@ -231,7 +273,7 @@
 					</div>
 
 					<hr class="socket">
-					<h6 class="text-center">Red Sky Web Development <script type="text/javascript">var year = new Date();document.write(year.getFullYear());</script></h6>
+					<h5 class="text-center">Red Sky Web Development <script type="text/javascript">var year = new Date();document.write(year.getFullYear());</script></h5>
 				</div>
       </footer>
     </div>
@@ -239,6 +281,8 @@
     <!-- Script source files -->
     <script src="./resources/js/jquery-3.6.0.min.js"></script>
     <script src="./resources/js/app.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
     <script src="./resources/bootstrap-5.0.0-beta3-dist/js/bootstrap.min.js"></script>
     <script defer="defer" src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" integrity="sha384-haqrlim99xjfMxRP6EWtafs0sB1WKcMdynwZleuUSwJR0mDeRYbhtY+KPMr+JL6f" crossorigin="anonymous"></script>
   </body>
